@@ -1,0 +1,81 @@
+
+
+.piedepagina {
+    background-color: #eeeeee;
+    padding-top: 30px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+
+    & h4 {
+        margin: 0 35px;
+        font-family: $titulos;
+        font-weight: bold;
+    }
+
+    & a {
+        margin: 1 20px;
+        color: black;
+    }
+
+    & a:hover{
+        color: #c8a155;
+    }
+}
+
+.comparte {
+    text-align: center;
+    font-family: $titulos;
+    font-weight: bold;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content:space-around;
+    margin: 0 126px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+
+    & a {
+        font-size: $textMedium;
+        color: #000000;
+    }
+
+    & a:hover{
+        color: #c8a155;
+    }
+}
+
+.ubi {
+
+    & h4 {
+        font-family: $titulos;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    & a {
+        font-family:$parrafos;
+        color: #000000;
+    }
+
+    & a:hover{
+        color: #c8a155;
+    }
+}
+
+
+
+.copy {
+    background-color: black;
+
+    & h4 {
+        color: white;
+        text-align: center;
+        font-size: $textXs;
+        margin-top: 5px;
+        font-family:$parrafos;
+    }
+}
